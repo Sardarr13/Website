@@ -1,0 +1,101 @@
+body{
+    font-family: Metal Mania;
+    margin: 0px;
+    padding: 0px;
+    background: url('../bg1.jpg');
+}
+/**            header left               **/
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+.left img{
+    width: 100px;
+}
+.left div{
+    text-align: center;
+    font-size: 150%;
+}
+.left div a{
+    text-decoration: none;
+    color: red;
+}
+/**       header right         **/
+.right{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+}
+.btn{
+    margin: 0px 9px;
+    color:red;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 120%;
+    cursor: pointer;
+    font-family: Metal Mania;
+}
+.btn:hover, .btn:active{
+    background-color: gray;
+    border: red;
+}
+/**       header middle         **/
+.middle{
+    display: block;
+    width: 40%;
+    margin: 30px auto;
+}
+.navbar{
+    display:inline-block
+    
+}
+
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color:red;
+    padding: 20px;
+    font-size: 140%;
+
+}
+.navbar li a:hover,.navbar li a:active {
+    text-decoration: underline;
+    background-color: gray;
+    border-radius: 2px ;
+
+}
+/**       container       **/
+.container{
+    margin: 40px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 130%;
+    color: red;
+    width: 50%;
+    padding: 20px;
+}
+.formgroup input{
+    font-size: 110%;
+    margin: 10px;
+    margin-left: 87px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Metal Mania;
+    width: 75%;
+}
+.container button{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+
+}
+.container h1{
+    text-align: center;
+}
